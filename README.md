@@ -36,3 +36,21 @@
     <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp">
   </a>
 </p>
+
+```
+const telefone = telefoneInput.value.replace(/D/g,'');
+if (telefone.length < 10 || telefone.length > 11 || !/^[0-9]+$/.test(telefone)) {
+
+}else{
+
+}
+```
+
+```
+const cpf = cpfInput.value.replace(/D/g,'');
+if (cpf.length !== 11 || !/^[0-9]+$/.test(cpf)) {
+
+}else{
+
+}`
+```

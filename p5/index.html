@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Validação de Formulário</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Abertura de Conta</h1>
+    <form id="cadastro-form">
+      <div class="form-group">
+        <label for="cpf">CPF:</label>
+        <input type="text" id="cpf" placeholder="Ex: 12345678900" required>
+        <span class="error-message" id="cpf-error"></span>
+      </div>
+      <div class="form-group">
+        <label for="data-nascimento">Data de Nascimento:</label>
+        <input type="date" id="data-nascimento" required>
+        <span class="error-message" id="data-error"></span>
+      </div>
+      <div class="form-group">
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" placeholder="Ex: (99) 99999-9999" required>
+        <span class="error-message" id="telefone-error"></span>
+      </div>
+      <button type="submit">Cadastrar</button>
+    </form>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
